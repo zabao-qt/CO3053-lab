@@ -1,0 +1,32 @@
+# Ignore build output directories anywhere in repo
+**/Debug/
+**/Release/
+**/build/
+**/out/
+**/bin/
+**/obj/
+
+# Ignore STM32CubeIDE/Eclipse metadata everywhere
+**/.settings/
+**/.metadata/
+**/.loadpath
+**/.project
+**/.cproject
+
+# Ignore launch configs, logs, etc.
+*.launch
+*.log
+
+# Object and intermediate build files
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.srec
+*.out
+*.a
+*.su
+*.cyclo
+*.mk
