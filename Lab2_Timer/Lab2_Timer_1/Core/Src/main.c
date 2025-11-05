@@ -125,10 +125,11 @@ int main(void) {
 			 */
 			//led_7seg_display();
 		}
-//		if (timer4_flag) {
-//			timer4_flag = 0;
+		if (timer4_flag) {
+			timer4_flag = 0;
 //			led_7seg_init();
-//		}
+			led_7seg_display();
+		}
 		/* USER CODE END WHILE */
 
 		/* USER CODE BEGIN 3 */
