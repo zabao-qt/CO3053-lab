@@ -125,6 +125,7 @@ int main(void) {
 			 */
 			//led_7seg_display();
 		}
+		led_7seg_display();
 //		if (timer4_flag) {
 //			timer4_flag = 0;
 //			led_7seg_init();
@@ -185,7 +186,7 @@ void init_system(void) {
 	timer2_set(50);
 
 	timer4_init();
-	timer4_set_ms(250); // 1 Hz
+//	timer4_set_ms(250); // 1 Hz
 //	timer4_set_ms(25);  // 25*4=100ms -> 10 Hz
 //	timer4_set_us(2500);   // 2500us*4=10ms -> 100Hz
 //	timer4_set_us(250);   //
