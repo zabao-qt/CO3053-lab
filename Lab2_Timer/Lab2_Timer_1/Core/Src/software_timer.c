@@ -63,7 +63,7 @@ void timer3_set(int ms) {
 //	timer4_flag = 0;
 //}
 
-void timer4_set_ms(int ms) {
+void timer4_set(int ms) {
     /* us->ms then / tick */
     uint32_t tick_us = TIMER_CYCLE_4_US;
     if (tick_us == 0) tick_us = 1000; // safe guard (treat as 1ms)
